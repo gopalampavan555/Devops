@@ -5,18 +5,13 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
   
   <modelVersion>4.0.0</modelVersion>  
   
-  <groupId>com.example.maven-project</groupId>
-  <artifactId>maven-project</artifactId>
-  <packaging>pom</packaging>
-  <version>1.0-SNAPSHOT</version>
-  <name>Maven Project</name>
-  <description>Sample Maven project with a working, deployable site.</description> 
+  <groupId>com.javatpoint.application1</groupId>  
+  <artifactId>my-application1</artifactId>  
+  <version>1.0</version>  
+  <packaging>war</packaging>  
+  
+  <name>Maven Quick Start Archetype</name>  
   <url>http://maven.apache.org</url>  
-
-  <modules>
-    <module>server</module>
-    <module>webapp</module>
-  </modules>
   
   <dependencies>  
     <dependency>  
